@@ -1,16 +1,9 @@
 {
-  "extends": "../../tsconfig.packages.json",
   "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react",
     "rootDir": "src",
-    "outDir": "dist",
-    "composite": true
+    "outDir": "dist"
   },
-  "references": [
-    {
-      "path": "../../packages/malloy"
-    },
-    {
-      "path": "../../packages/malloy-db-bigquery"
-    }
-  ]
+  "include": ["src"],
 }

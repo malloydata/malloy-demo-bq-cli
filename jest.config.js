@@ -12,7 +12,6 @@
  */
 
 module.exports = {
-  moduleDirectories: ["../../node_modules"],
   moduleFileExtensions: ["js", "jsx", "ts", "tsx"],
   modulePathIgnorePatterns: ["<rootDir>/dist/"],
   setupFilesAfterEnv: ["jest-expect-message"],
