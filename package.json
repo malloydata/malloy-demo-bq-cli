@@ -19,8 +19,9 @@
     "run": "ts-node src/entry.ts"
   },
   "dependencies": {
-    "@malloydata/malloy": "0.0.3",
-    "@malloydata/db-bigquery": "0.0.3"
+    "@malloydata/malloy": "0.0.31",
+    "@malloydata/db-bigquery": "0.0.31",
+    "@malloydata/db-duckdb": "0.0.31"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.9.1",

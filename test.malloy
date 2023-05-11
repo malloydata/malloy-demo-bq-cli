@@ -1,0 +1,2 @@
+
+query: table('duckdb:flights.parquet')->{aggregate: flight_count is count()}
