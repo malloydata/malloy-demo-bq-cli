@@ -53,7 +53,7 @@ export function run(
   // - With a Query object I can:
     // - create/read/update/delete properties of a Query (group_by/aggregate/project/limit/order_by/where/having/nest)
     // - run the Query and get the results
-    // - add a Query Pipeline Stage
+    // - create/read/update/delete a Query Pipeline Stage
 
   // Would want to do something like this:
   import { Malloy } from "@malloydata/malloy";
