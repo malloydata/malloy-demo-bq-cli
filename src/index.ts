@@ -51,7 +51,7 @@ export function run(
     // - create/read/update/delete an unnamed Query
     // - create/read/update/delete properties of a Source (dimensions/measures/joins/filters)
   // - With a Query object I can:
-    // - create/read/update/delete properties of a Query
+    // - create/read/update/delete properties of a Query (group_by/aggregate/project/limit/order_by/where/having/nest)
     // - run the Query and get the results
     // - add a Query Pipeline Stage
 
