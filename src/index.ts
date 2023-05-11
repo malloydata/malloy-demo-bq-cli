@@ -39,6 +39,22 @@ export function run(
   // Rename "runtime" to "malloy"?
   // Why do we need ModelMaterializer and QueryMaterializer? Can it just be Model and Query in the API?
 
+  // Things I want to do:
+  // - Load a Model -- a Model is a collection of Sources and Named Queries.
+  // - With a Model object, I can:
+    // - run unnamed Queries and get results
+    // - run Named Queries and get results
+    // - create/read/update/delete Sources
+    // - create/read/update/delete Named Queries
+  // - With a Source object I can:
+    // - create/read/update/delete a Named Query
+    // - create/read/update/delete an unnamed Query
+    // - create/read/update/delete properties of a Source (dimensions/measures/joins/filters)
+  // - With a Query object I can:
+    // - create/read/update/delete properties of a Query
+    // - run the Query and get the results
+    // - add a Query Pipeline Stage
+
   // Would want to do something like this:
   import { Malloy } from "@malloydata/malloy";
   const malloy = new Malloy(files, connection)
